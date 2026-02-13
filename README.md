@@ -24,8 +24,8 @@ ORB → lebih cepat (real-time friendly)
 1. Clone Repository
 
   ```
-  git clone https://github.com/username/sift-orb-comparison.git
-  cd sift-orb-comparison
+  git clone https://github.com/azharzuhro12/uas-viskom.git
+  cd uas-viskom
 
   ```
 
@@ -41,11 +41,11 @@ source venv/bin/activate     # Linux/Mac
 
   jika pakai conda:
 ```
-conda create --name sift-orb python=3.10
+conda create --name uas-viskom python=3.10
 ```
 
 ```
-conda activate sift-orb
+conda activate uas-viskom
 ```
 
 
