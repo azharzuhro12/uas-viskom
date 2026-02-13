@@ -62,7 +62,7 @@ pip install opencv-python opencv-contrib-python numpy matplotlib
 
 1. Membuat Dataset Variasi Gambar
 
-Script ini akan membuat beberapa kondisi citra untuk menguji ketahanan algoritma.
+membuat beberapa kondisi citra untuk menguji ketahanan algoritma.
 
    ```
    python dataset.py
