@@ -39,7 +39,7 @@ source venv/bin/activate     # Linux/Mac
 
 ```
 
-jika pakai conda:
+  jika pakai conda:
 ```
 conda create --name sift-orb python=3.10
 ```
