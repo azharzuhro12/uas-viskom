@@ -60,7 +60,26 @@ pip install opencv-python opencv-contrib-python numpy matplotlib
 
 ## Cara Menjalankan Proyek
 
-1.Deteksi Keypoint
+1. Membuat Dataset Variasi Gambar
+
+Script ini akan membuat beberapa kondisi citra untuk menguji ketahanan algoritma.
+
+   ```
+   python dataset.py
+   ```
+Output akan tersimpan pada:
+   ```
+   dataset/
+├── original.jpg
+├── rotate.jpg
+├── scale.jpg
+├── blur.jpg
+├── dark.jpg
+└── perspective.jpg
+
+   ```
+
+2.Deteksi Keypoint
 Menampilkan perbandingan jumlah dan persebaran keypoint SIFT vs ORB.
    ```
    python detect.py
@@ -70,7 +89,7 @@ Output:
 - Visualisasi keypoint SIFT
 - Visualisasi keypoint ORB
 
-2.Feature Matching
+3.Feature Matching
 Menampilkan kecocokan fitur antara dua gambar.
    ```
    python matching.py
