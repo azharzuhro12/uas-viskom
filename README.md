@@ -18,6 +18,7 @@ Deteksi fitur digunakan agar komputer dapat mengenali objek yang sama walaupun:
 - diambil dari sudut berbeda
 
 SIFT → lebih akurat (presisi tinggi)
+
 ORB → lebih cepat (real-time friendly)
 
 ## Instalasi
